@@ -1,0 +1,353 @@
+/* Estilização global */
+body {
+    margin: 0;
+    padding: 0 30px; /* Adicionei 30px de preenchimento à direita para manter o conteúdo afastado das bordas */
+    background-color: beige;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilização do cabeçalho */
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilização do menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Estilização do conteúdo principal */
+section {
+    padding: 20px 0;
+    text-align: justify;
+}
+
+/* Estilização da imagem */
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilização dos links externos */
+section a.external-link {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+/* Estilização do rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilização do link dentro do rodapé */
+footer a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: black; /* Define a cor preta */
+}
+
+footer p {
+    margin-top: 5px; /* Reduz a margem superior para ajustar a distância entre a imagem e o texto */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Estilização do link do rodapé quando hover (passar o mouse) */
+footer a:hover {
+    color: grey; /* Define a cor cinza */
+}
+
+/* Estilização do link do menu de navegação quando hover (passar o mouse) */
+nav a:hover {
+    color: grey; /* Define a cor cinza */
+}
+
+/* Bradesco estilização texto */
+.bradesco {
+    color: black;
+    text-align: justify;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.bradesco a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    background-color: #E4E0E0; /* Cor de fundo bege */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bradesco a:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: black; /* Mantém o texto preto */
+}
+.bradesco h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Sebrae estilização texto */
+.sebrae {
+    color: black;
+    text-align: justify;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sebrae a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    background-color: #E4E0E0; /* Cor de fundo bege */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sebrae a:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: black; /* Mantém o texto preto */
+}
+.sebrae h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Unieducar estilização texto */
+.unieducar {
+    color: black;
+    text-align: justify;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.unieducar a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    background-color: #E4E0E0; /* Cor de fundo bege */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.unieducar a:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: black; /* Mantém o texto preto */
+}
+.unieducar h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* senai estilização texto */
+.senai {
+    color: black;
+    text-align: justify;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.senai a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    background-color: #E4E0E0; /* Cor de fundo bege */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.senai a:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: black; /* Mantém o texto preto */
+}
+.senai h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* enap estilização texto */
+.enap {
+    color: black;
+    text-align: justify;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.enap a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    background-color: #E4E0E0; /* Cor de fundo bege */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.enap a:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: black; /* Mantém o texto preto */
+}
+.enap h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* FGV estilização texto */
+.fgv {
+    color: black;
+    text-align: justify;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.fgv a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    background-color: #E4E0E0; /* Cor de fundo bege */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fgv a:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: black; /* Mantém o texto preto */
+}
+.fgv h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Nube estilização texto */
+.nube {
+    color: black;
+    text-align: justify;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.nube a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    background-color: #E4E0E0; /* Cor de fundo bege */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nube a:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: black; /* Mantém o texto preto */
+}
+.nube h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* contato estilização */
+.botao-contato {
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E4E0E0;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    width: max-content; /* Define a largura máxima possível */
+}
+
+.botao-contato:hover {
+    background-color: grey; /* Cor de fundo bege mais clara ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+.rodape {
+    background-color: #EFE9E4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction:column-reverse; /* Ajusta o conteúdo para ser empilhado verticalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilo do botão rodapé*/
+.botao {
+    background-color:darkgray; /* Cor de fundo do botão */
+    color: black; /* Cor do texto do botão (preto) */
+    padding: 15px 100px;
+    border: none;
+    border-radius: 30px; /* Borda arredondada */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px; /* Adiciona espaço acima do botão */
+}
+
+.botao:hover {
+    background-color: grey; /* Cor de fundo bege mais clara */
+    color: white; /* Mantém o texto preto */
+}
+
+/*Estilização do legenda*/
+
+figure {
+    font-size: small;
+}
+
