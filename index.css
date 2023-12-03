@@ -1,7 +1,7 @@
 /* Estilização global */
 body {
     margin: 0;
-    padding: 0 30px; /* Adicionei 30px de preenchimento à direita para manter o conteúdo afastado das bordas */
+    padding: 0 2%; /* Adicionei 30px de preenchimento à direita para manter o conteúdo afastado das bordas */
     background-color: beige;
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +12,7 @@ body {
 /* Estilização do cabeçalho */
 header {
     text-align: center;
-    padding: 10px 0;
+    padding: 1% 0;
 }
 
 header img {
@@ -29,7 +29,7 @@ header h1 {
 /* Estilização do menu de navegação */
 nav ul {
     list-style: none;
-    padding: 5px;
+    padding: 1%;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 5%;
 }
 
 nav a {
@@ -48,7 +48,7 @@ nav a {
 
 /* Estilização do conteúdo principal */
 section {
-    padding: 20px 0;
+    padding: 2% 0;
     text-align: justify;
 }
 
@@ -63,7 +63,7 @@ section img {
 /* Estilização dos links externos */
 section a.external-link {
     display: block;
-    margin-top: 5px;
+    margin-top: 1%;
     text-align: center;
     color: black;
     font-weight: bold;
@@ -72,7 +72,7 @@ section a.external-link {
 /* Estilização do rodapé */
 footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 10% 0;
 }
 
 /* Estilização do link dentro do rodapé */
@@ -82,7 +82,7 @@ footer a {
 }
 
 footer p {
-    margin-top: 5px; /* Reduz a margem superior para ajustar a distância entre a imagem e o texto */
+    margin-top: 2%; /* Reduz a margem superior para ajustar a distância entre a imagem e o texto */
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -101,20 +101,23 @@ nav a:hover {
 .bradesco {
     color: black;
     text-align: justify;
-    padding: 0;
-    margin-top: 20px;
+    padding: 0%;
+    margin-top: 2%;
 }
 
 .bradesco a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     border: none;
-    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    border-radius: 20px; 
     background-color: #E4E0E0; /* Cor de fundo bege */
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 
 .bradesco a:hover {
@@ -129,20 +132,23 @@ nav a:hover {
 .sebrae {
     color: black;
     text-align: justify;
-    padding: 0;
-    margin-top: 20px;
+    padding: 0%;
+    margin-top: 2%;
 }
 
 .sebrae a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     border: none;
-    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    border-radius: 20px; 
     background-color: #E4E0E0; /* Cor de fundo bege */
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 
 .sebrae a:hover {
@@ -157,20 +163,23 @@ nav a:hover {
 .unieducar {
     color: black;
     text-align: justify;
-    padding: 0;
-    margin-top: 20px;
+    padding: 0%;
+    margin-top: 2%;
 }
 
 .unieducar a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     border: none;
-    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    border-radius: 20px; 
     background-color: #E4E0E0; /* Cor de fundo bege */
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 
 .unieducar a:hover {
@@ -184,20 +193,23 @@ nav a:hover {
 .senai {
     color: black;
     text-align: justify;
-    padding: 0;
-    margin-top: 20px;
+    padding: 0%;
+    margin-top: 2%;
 }
 
 .senai a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     border: none;
-    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    border-radius: 20px; 
     background-color: #E4E0E0; /* Cor de fundo bege */
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 
 .senai a:hover {
@@ -211,20 +223,23 @@ nav a:hover {
 .enap {
     color: black;
     text-align: justify;
-    padding: 0;
-    margin-top: 20px;
+    padding: 0%;
+    margin-top: 2%;
 }
 
 .enap a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     border: none;
-    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    border-radius: 20px; 
     background-color: #E4E0E0; /* Cor de fundo bege */
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 
 .enap a:hover {
@@ -239,20 +254,23 @@ nav a:hover {
 .fgv {
     color: black;
     text-align: justify;
-    padding: 0;
-    margin-top: 20px;
+    padding: 0%;
+    margin-top: 2%;
 }
 
 .fgv a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     border: none;
-    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    border-radius: 20px; 
     background-color: #E4E0E0; /* Cor de fundo bege */
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 
 .fgv a:hover {
@@ -267,20 +285,23 @@ nav a:hover {
 .nube {
     color: black;
     text-align: justify;
-    padding: 0;
-    margin-top: 20px;
+    padding: 0%;
+    margin-top: 2%;
 }
 
 .nube a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     border: none;
-    border-radius: 20px; /* Define um raio para torná-lo arredondado */
+    border-radius: 20px; 
     background-color: #E4E0E0; /* Cor de fundo bege */
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 
 .nube a:hover {
@@ -294,7 +315,8 @@ nav a:hover {
 .botao-contato {
     display: block;
     margin: 0 auto; /* Centraliza horizontalmente */
-    padding: 10px 20px;
+    padding: 1% 1%;
+    width: auto;
     border: none;
     border-radius: 20px;
     background-color: #E4E0E0;
@@ -312,7 +334,7 @@ nav a:hover {
 /* Estilo do rodapé */
 .rodape {
     background-color: #EFE9E4;
-    padding: 20px 0;
+    padding: 1% 1%;
     text-align: center;
 }
 
@@ -324,7 +346,8 @@ footer p {
     display: flex;
     flex-direction:column-reverse; /* Ajusta o conteúdo para ser empilhado verticalmente */
     align-items: center; /* Centraliza o conteúdo verticalmente */
-    max-width: 960px;
+    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
+    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
     margin: 0 auto;
 }
 
@@ -332,12 +355,12 @@ footer p {
 .botao {
     background-color:darkgray; /* Cor de fundo do botão */
     color: black; /* Cor do texto do botão (preto) */
-    padding: 15px 100px;
+    padding: 1% 3%;
     border: none;
-    border-radius: 30px; /* Borda arredondada */
+    border-radius: 20px; /* Borda arredondada */
     text-decoration: none;
     font-weight: bold;
-    margin-top: 10px; /* Adiciona espaço acima do botão */
+    margin-top: 1%; /* Adiciona espaço acima do botão */
 }
 
 .botao:hover {
