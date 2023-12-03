@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0 2%; /* Adicionei 30px de preenchimento à direita para manter o conteúdo afastado das bordas */
-    background-color: beige;
+    background-color: white;
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
