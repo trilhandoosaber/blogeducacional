@@ -1,7 +1,6 @@
-/* Estilização global */
 body {
     margin: 0;
-    padding: 0 2%; /* Adicionei 30px de preenchimento à direita para manter o conteúdo afastado das bordas */
+    padding: 1% 2%; 
     background-color: #F8F8FF;
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -84,7 +83,7 @@ footer a {
 }
 
 footer p {
-    margin-top: 2%; /* Reduz a margem superior para ajustar a distância entre a imagem e o texto */
+    margin-top: 2%; 
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -369,8 +368,6 @@ footer p {
     background-color: grey; /* Cor de fundo bege mais clara */
     color: white; /* Mantém o texto preto */
 }
-
-/*Estilização do legenda*/
 
 figure {
     font-size: small;
