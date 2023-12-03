@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 1% 2%; 
+    padding: 2% 2%; 
     background-color: #F8F8FF;
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -370,6 +370,6 @@ footer p {
 }
 
 figure {
-    font-size: small;
+    font-size: medium;
 }
 
