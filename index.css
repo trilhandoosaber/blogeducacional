@@ -26,7 +26,6 @@ header h1 {
     font-size:x-large;
 }
 
-/* Estilização do menu de navegação */
 nav ul {
     list-style:none;
     padding: 1%;
@@ -47,13 +46,11 @@ nav a {
     font-weight: bold;
 }
 
-/* Estilização do conteúdo principal */
 section {
     padding: 2% 0;
     text-align: justify;
 }
 
-/* Estilização da imagem */
 section img {
     display: block;
     margin: 0 auto;
@@ -61,7 +58,6 @@ section img {
     height: auto;
 }
 
-/* Estilização dos links externos */
 section a.external-link {
     display: block;
     margin-top: 1%;
@@ -70,16 +66,14 @@ section a.external-link {
     font-weight: bold;
 }
 
-/* Estilização do rodapé */
 footer {
     text-align: center;
     padding: 10% 0;
 }
 
-/* Estilização do link dentro do rodapé */
 footer a {
-    text-decoration: none; /* Remove o sublinhado */
-    color: black; /* Define a cor preta */
+    text-decoration: none; 
+    color: black; 
 }
 
 footer p {
@@ -88,17 +82,14 @@ footer p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Estilização do link do rodapé quando hover (passar o mouse) */
 footer a:hover {
-    color: grey; /* Define a cor cinza */
+    color: grey; 
 }
 
-/* Estilização do link do menu de navegação quando hover (passar o mouse) */
 nav a:hover {
-    color: grey; /* Define a cor cinza */
+    color: grey; 
 }
 
-/* Bradesco estilização texto */
 .bradesco {
     color: black;
     text-align: justify;
@@ -108,12 +99,12 @@ nav a:hover {
 
 .bradesco a.button {
     display: inline-block;
-    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    padding: 3% 5%; 
+    width: auto; 
+    max-width: 100%; 
     border: none;
     border-radius: 20px; 
-    background-color: #E4E0E0; /* Cor de fundo bege */
+    background-color: #E4E0E0; 
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -122,14 +113,13 @@ nav a:hover {
 }
 
 .bradesco a:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: black; /* Mantém o texto preto */
+    background-color: grey; 
+    color: black; 
 }
 .bradesco h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Sebrae estilização texto */
 .sebrae {
     color: black;
     text-align: justify;
@@ -139,12 +129,12 @@ nav a:hover {
 
 .sebrae a.button {
     display: inline-block;
-    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    padding: 3% 5%; 
+    width: auto; 
+    max-width: 100%; 
     border: none;
     border-radius: 20px; 
-    background-color: #E4E0E0; /* Cor de fundo bege */
+    background-color: #E4E0E0; 
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -153,14 +143,13 @@ nav a:hover {
 }
 
 .sebrae a:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: black; /* Mantém o texto preto */
+    background-color: grey; 
+    color: black; 
 }
 .sebrae h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Unieducar estilização texto */
 .unieducar {
     color: black;
     text-align: justify;
@@ -170,12 +159,12 @@ nav a:hover {
 
 .unieducar a.button {
     display: inline-block;
-    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    padding: 3% 5%; 
+    width: auto; 
+    max-width: 100%; 
     border: none;
     border-radius: 20px; 
-    background-color: #E4E0E0; /* Cor de fundo bege */
+    background-color: #E4E0E0; 
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -184,13 +173,13 @@ nav a:hover {
 }
 
 .unieducar a:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: black; /* Mantém o texto preto */
+    background-color: grey; 
+    color: black; 
 }
 .unieducar h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* senai estilização texto */
+
 .senai {
     color: black;
     text-align: justify;
@@ -200,12 +189,12 @@ nav a:hover {
 
 .senai a.button {
     display: inline-block;
-    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    padding: 3% 5%; 
+    width: auto; 
+    max-width: 100%; 
     border: none;
     border-radius: 20px; 
-    background-color: #E4E0E0; /* Cor de fundo bege */
+    background-color: #E4E0E0; 
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -214,13 +203,13 @@ nav a:hover {
 }
 
 .senai a:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: black; /* Mantém o texto preto */
+    background-color: grey; 
+    color: black; 
 }
 .senai h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* enap estilização texto */
+
 .enap {
     color: black;
     text-align: justify;
@@ -230,12 +219,12 @@ nav a:hover {
 
 .enap a.button {
     display: inline-block;
-    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    padding: 3% 5%; 
+    width: auto; 
+    max-width: 100%; 
     border: none;
     border-radius: 20px; 
-    background-color: #E4E0E0; /* Cor de fundo bege */
+    background-color: #E4E0E0;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -244,14 +233,13 @@ nav a:hover {
 }
 
 .enap a:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: black; /* Mantém o texto preto */
+    background-color: grey; 
+    color: black; 
 }
 .enap h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* FGV estilização texto */
 .fgv {
     color: black;
     text-align: justify;
@@ -261,12 +249,12 @@ nav a:hover {
 
 .fgv a.button {
     display: inline-block;
-    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    padding: 3% 5%; 
+    width: auto; 
+    max-width: 100%; 
     border: none;
     border-radius: 20px; 
-    background-color: #E4E0E0; /* Cor de fundo bege */
+    background-color: #E4E0E0; 
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -275,14 +263,13 @@ nav a:hover {
 }
 
 .fgv a:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: black; /* Mantém o texto preto */
+    background-color: grey; 
+    color: black; 
 }
 .fgv h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Nube estilização texto */
 .nube {
     color: black;
     text-align: justify;
@@ -292,12 +279,12 @@ nav a:hover {
 
 .nube a.button {
     display: inline-block;
-    padding: 3% 5%; /* Reduzi o valor para tornar o botão menos espaçoso */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    padding: 3% 5%; 
+    width: auto; 
+    max-width: 100%; 
     border: none;
     border-radius: 20px; 
-    background-color: #E4E0E0; /* Cor de fundo bege */
+    background-color: #E4E0E0;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -306,16 +293,16 @@ nav a:hover {
 }
 
 .nube a:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: black; /* Mantém o texto preto */
+    background-color: grey; 
+    color: black; 
 }
 .nube h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* contato estilização */
+
 .botao-contato {
     display: block;
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto; 
     padding: 1% 1%;
     width: auto;
     border: none;
@@ -325,14 +312,13 @@ nav a:hover {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    width: max-content; /* Define a largura máxima possível */
+    width: max-content; 
 }
 
 .botao-contato:hover {
-    background-color: grey; /* Cor de fundo bege mais clara ao passar o mouse */
+    background-color: grey; 
 }
 
-/* Estilo do rodapé */
 .rodape {
     background-color: #EFE9E4;
     padding: 1% 1%;
@@ -345,28 +331,28 @@ footer p {
 
 .rodape-conteudo {
     display: flex;
-    flex-direction:column-reverse; /* Ajusta o conteúdo para ser empilhado verticalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    width: auto; /* Definir a largura como automática para se ajustar ao conteúdo */
-    max-width: 100%; /* Garantir que o botão não ultrapasse a largura do contêiner pai */
+    flex-direction:column-reverse; 
+    align-items: center; 
+    width: auto; 
+    max-width: 100%; 
     margin: 0 auto;
 }
 
 /* Estilo do botão rodapé*/
 .botao {
-    background-color:darkgray; /* Cor de fundo do botão */
-    color: black; /* Cor do texto do botão (preto) */
+    background-color:darkgray; 
+    color: black; 
     padding: 1% 3%;
     border: none;
-    border-radius: 20px; /* Borda arredondada */
+    border-radius: 20px; 
     text-decoration: none;
     font-weight: bold;
-    margin-top: 1%; /* Adiciona espaço acima do botão */
+    margin-top: 1%; 
 }
 
 .botao:hover {
-    background-color: grey; /* Cor de fundo bege mais clara */
-    color: white; /* Mantém o texto preto */
+    background-color: grey; 
+    color: white; 
 }
 
 figure {
